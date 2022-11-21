@@ -1,0 +1,15 @@
+.container {
+    border-top: 1px solid var(--gray-300);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 4rem;
+}
+
+.paragraph {
+    font-weight: 900;
+}

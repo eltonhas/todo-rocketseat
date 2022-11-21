@@ -1,0 +1,83 @@
+
+.TaskBox {
+    background: var(--gray-500);
+
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    
+    max-width: 46rem;
+    height: 4.5rem;
+
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: var(--gray-100);
+}
+
+.TextTask {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.CheckBox {
+    background: transparent;
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid var(--blue-dark);
+    border-radius: 100%;
+
+    cursor: pointer;
+}
+
+.CheckBox:hover {
+    background: var(--blue);
+    opacity: 0.1;
+    border: 1px solid var(--blue);
+}
+
+.CheckBoxChecked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--purple-dark);
+    height: 1rem;
+    width: 1rem;
+    border: 1px solid var(--purple-dark);
+    border-radius: 100%;
+
+    cursor: pointer;
+}
+
+.CheckBoxChecked:hover {
+    background: var(--purple);
+    border: 1px solid var(--purple);
+}
+
+.TrashSvg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.TrashSvg:hover {
+    background: var(--gray-400);
+    color: var(--danger);
+}
+
+.TaskDecoration {
+    text-decoration: line-through;
+    color: var(--gray-300)
+}
